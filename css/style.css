@@ -26,10 +26,6 @@
   width: 50%;
 }
 
-.color-acento {
-  color: rgb(238, 71, 20);
-}
-
 .centrar-a {
   display: grid;
   align-self: center;
@@ -60,6 +56,10 @@
   position: fixed;
   bottom: 10px;
   right: 10px;
+}
+
+.color-acento {
+  color: rgb(238, 71, 20);
 }
 
 /*# sourceMappingURL=style.css.map */

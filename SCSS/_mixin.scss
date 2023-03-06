@@ -1,0 +1,7 @@
+@mixin colorprincipal {
+    color: rgb(238, 71, 20);
+}
+
+.color-acento {
+	@include colorprincipal
+}
