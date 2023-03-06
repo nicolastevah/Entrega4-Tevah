@@ -1,72 +1,65 @@
-
-
-.logo{
-    width: 200px;
+.logo {
+  width: 200px;
 }
 
-#somos-basquiat{
-    background-color: rgb(231, 231, 231);
-    
+#somos-basquiat {
+  background-color: rgb(231, 231, 231);
+}
+#somos-basquiat .container {
+  text-align: center;
+  width: 57em;
+  padding: 20px;
+  padding: 150px;
+  display: flex;
+  justify-content: center;
+}
+#somos-basquiat .texto {
+  width: 50%;
+  text-align: initial;
+  padding: 60px 20px;
+}
+#somos-basquiat .img-container {
+  background-image: url(../img/cuadro4.png);
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 50%;
 }
 
-#somos-basquiat .container{
-    text-align: center;
-    width: 57em;
-    padding: 20px;
-    padding: 150px;
-    display: flex;
-    justify-content: center;
+.color-acento {
+  color: rgb(238, 71, 20);
 }
 
-
-.color-acento{
-    color: rgb(238, 71, 20);
+.centrar-a {
+  display: grid;
+  align-self: center;
 }
 
-#somos-basquiat .texto{
-    width: 50%;
-    text-align: initial;
-    padding: 60px 20px;
+.img-center {
+  display: flex;
+  justify-items: center;
 }
 
-#somos-basquiat .img-container{
-    background-image: url(../img/cuadro4.png);
-    background-size: cover;
-    background-position: center center;
-    height: 500px ;
-    width: 50%;
+.contac {
+  text-decoration: none;
+  color: black;
+}
+.contac:hover {
+  text-decoration: underline;
 }
 
-.contac{
-    text-decoration: none;
-    color: black;
+.container-info {
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.contac:hover{
-    text-decoration: underline;
+.botonWhatsApp img {
+  width: 70px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
 }
 
-.container-info{
-    display: flex;
-    margin: 20px;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.centrar-a{
-    display: grid;
-    align-self: center;
-}
-
-.img-center{
-    display: flex;
-    justify-items: center;
-}
-
-.botonWhatsApp img{
-    width: 70px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-}
-
+/*# sourceMappingURL=style.css.map */

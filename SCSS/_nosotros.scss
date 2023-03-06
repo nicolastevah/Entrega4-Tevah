@@ -1,0 +1,30 @@
+$color_1: rgb(238, 71, 20);
+$color_2: black;
+$background-color_1: rgb(231, 231, 231);
+
+#somos-basquiat {
+	background-color: $background-color_1;
+	.container {
+		text-align: center;
+		width: 57em;
+		padding: 20px;
+		padding: 150px;
+		display: flex;
+		justify-content: center;
+	}
+	.texto {
+		width: 50%;
+		text-align: initial;
+		padding: 60px 20px;
+	}
+	.img-container {
+		background-image: url(../img/cuadro4.png);
+		background-size: cover;
+		background-position: center center;
+		height: 500px;
+		width: 50%;
+	}
+}
+.color-acento {
+	color: $color_1;
+}
