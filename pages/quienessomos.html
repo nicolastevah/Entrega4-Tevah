@@ -1,129 +1,157 @@
 <!DOCTYPE html>
 <html lang="es">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Quienes Somos-Basquiat.deco</title>
+    <title>Quienes Somos-Basquiat.deco</title>
 
-        <link rel="fav icon" href="../img/logo.png">
+    <link rel="fav icon" href="../img/logo.png">
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-                
-        <link rel="stylesheet" href="../css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-        <meta name="description" content="3 Hermanos que Crearon un Emprendimiento de venta de Cuadros y Laminas ">
+    <link rel="stylesheet" href="../css/style.css">
 
-    </head>
+    <meta name="description" content="3 Hermanos que Crearon un Emprendimiento de venta de Cuadros y Laminas ">
 
-    <body>
-        <header class="navbar navbar-expand-lg colorEncabezado">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/index.html"><img class="logo" src="../img/logo.png"
-                        alt="logo de basquiat.deco"></a>
-                <button class="navbar-toggler botoncito" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg colorEncabezado">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html"><img class="logo" src="../img/logo.png"
+                    alt="logo de basquiat.deco"></a>
+            <button class="navbar-toggler botoncito" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link enlacesBasquiat " aria-current="page" href="quienessomos.html">Quienes
+                            Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link enlacesBasquiat" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link enlacesBasquiat" href="locales.html">Locales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link enlacesBasquiat" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Iniciar Sesion
                 </button>
-                <nav class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link enlacesBasquiat " aria-current="page" href="quienessomos.html">Quienes Somos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link enlacesBasquiat" href="productos.html">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link enlacesBasquiat" href="locales.html">Locales</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link enlacesBasquiat" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Iniciar Sesion
-                    </button>
-                    
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Ingresa tus Datos</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Ingresa tus Datos</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Dirección de Correo
+                                        Electrónico</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con
+                                        nadie más.</div>
                                 </div>
-                                <div class="modal-body">
-                                    <div class="mb-3">
-                                        <label for="exampleInputEmail1" class="form-label">Dirección de Correo Electrónico</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                        <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                                        <input type="password" class="form-control" id="exampleInputPassword1">
-                                    </div>
-                
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
                                 </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                                    <button type="button" class="btn btn-primary">Aceptar</button>
-                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-primary">Aceptar</button>
                             </div>
                         </div>
                     </div>
-                </nav>
-            </div>
-        </header>
-
-        <main>
-            <section id="somos-basquiat">
-                    <div class="row m-5">
-        
-                        <div class="col-xl-12 col-md-12 col-sm-12 text-center">
-                            <h2 data-aos="fade-down">Somos <span class="color-acento">Basquiat.deco</span></h2>
-                            <p>Somos 3 hermanos llamados Dalmiro Tevah, Nicolas Tevah y Guido Tevah. Dalmiro Tevah es un diseñador gráfico muy talentoso, Nicolas Tevah un diseñador web innovador y Guido Tevah un experto en logística y ventas. Un día, decidimos unirnos y emprender un negocio juntos: vender láminas a través de Instagram.
-
-                                Dalmiro Tevah se encargaba de diseñar las láminas, siempre buscando crear diseños únicos y atractivos que llamaran la atención de los clientes. Nicolas Tevah, por su parte, se encargaba de crear la página web y de la estrategia digital para promocionar su negocio. Por último, Guido Tevah se encargaba de la logística, desde la compra de materiales hasta el envío de los productos.
-                                
-                                Al principio, las ventas no fueron muy buenas. A pesar de tener diseños atractivos no logramos atraer suficientes clientes. Fue entonces cuando Nicolas Tevah propuso hacer una campaña de Marketing en Instagram para llegar a más personas. Dalmiro Tevah diseñó algunas publicaciones y Guido Tevah se encargó de publicarlas y de interactuar con los clientes y Nicolas Tevah de crear una página web.
-                                
-                                La estrategia nos funcionó y comenzamos a recibir pedidos. Los clientes quedaban encantados con las láminas y los diseños personalizados que ofrecían. Dalmiro Tevah se inspiraba en los gustos y preferencias de los clientes para crear diseños únicos que se adaptaran a sus necesidades.
-                                
-                                Con el tiempo, el negocio fue creciendo y comenzaron a recibir pedidos de otras provincias. Guido Tevah trabajaba día y noche para que los envíos llegaran a tiempo y en perfectas condiciones. Nicolas Tevah se encargaba de la página web, actualizándola constantemente para mejorar la experiencia de los clientes.
-                                
-                                Pero a pesar del éxito, nunca perdieron la humildad ni el trabajo en equipo. Trabajabamos juntos en cada tarea, compartiendo ideas y respetando las opiniones de los demás. Nosotros descubrimosnuestra unión y esfuerzo en equipo era la clave del éxito de nuestro negocio.
-                                </p>
-                        </div>
-                    </div>       
-            </section>
-        </main>
-
-        <div class="botonWhatsApp">
-            <a href="https://api.whatsapp.com/send?phone=5491166756517" target="_blank"><img src="../img/logoWhatsapp.png" alt="Link a WhatsApp"></a>
+                </div>
+            </nav>
         </div>
+    </header>
 
+    <main>
+        <section id="somos-basquiat">
+            <div class="row m-5">
 
-        <hr>
-        <footer ca>
-            <div class="text-center">
-                <p>&copy; Copyright Basquiat Deco - 2023. Todos los derechos reservados. Defensa de las y los consumidores. Para reclamos <a class="weight-strong" href="https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario" target="_blank">ingrese aquí</a></p>
+                <div class="col-xl-12 col-md-12 col-sm-12 text-center">
+                    <h2 data-aos="fade-down">Somos <span class="color-acento">Basquiat.deco</span></h2>
+                    <p>Somos 3 hermanos llamados Dalmiro Tevah, Nicolas Tevah y Guido Tevah. Dalmiro Tevah es un
+                        diseñador gráfico muy talentoso, Nicolas Tevah un diseñador web innovador y Guido Tevah un
+                        experto en logística y ventas. Un día, decidimos unirnos y emprender un negocio juntos: vender
+                        láminas a través de Instagram.
+
+                        Dalmiro Tevah se encargaba de diseñar las láminas, siempre buscando crear diseños únicos y
+                        atractivos que llamaran la atención de los clientes. Nicolas Tevah, por su parte, se encargaba
+                        de crear la página web y de la estrategia digital para promocionar su negocio. Por último, Guido
+                        Tevah se encargaba de la logística, desde la compra de materiales hasta el envío de los
+                        productos.
+
+                        Al principio, las ventas no fueron muy buenas. A pesar de tener diseños atractivos no logramos
+                        atraer suficientes clientes. Fue entonces cuando Nicolas Tevah propuso hacer una campaña de
+                        Marketing en Instagram para llegar a más personas. Dalmiro Tevah diseñó algunas publicaciones y
+                        Guido Tevah se encargó de publicarlas y de interactuar con los clientes y Nicolas Tevah de crear
+                        una página web.
+
+                        La estrategia nos funcionó y comenzamos a recibir pedidos. Los clientes quedaban encantados con
+                        las láminas y los diseños personalizados que ofrecían. Dalmiro Tevah se inspiraba en los gustos
+                        y preferencias de los clientes para crear diseños únicos que se adaptaran a sus necesidades.
+
+                        Con el tiempo, el negocio fue creciendo y comenzaron a recibir pedidos de otras provincias.
+                        Guido Tevah trabajaba día y noche para que los envíos llegaran a tiempo y en perfectas
+                        condiciones. Nicolas Tevah se encargaba de la página web, actualizándola constantemente para
+                        mejorar la experiencia de los clientes.
+
+                        Pero a pesar del éxito, nunca perdieron la humildad ni el trabajo en equipo. Trabajabamos juntos
+                        en cada tarea, compartiendo ideas y respetando las opiniones de los demás. Nosotros
+                        descubrimosnuestra unión y esfuerzo en equipo era la clave del éxito de nuestro negocio.
+                    </p>
+                </div>
             </div>
-        </footer>
+        </section>
+    </main>
+
+    <div class="botonWhatsApp">
+        <a href="https://api.whatsapp.com/send?phone=5491166756517" target="_blank"><img src="../img/logoWhatsapp.png"
+                alt="Link a WhatsApp"></a>
+    </div>
+
+
+    <hr>
+    <footer ca>
+        <div class="text-center">
+            <p>&copy; Copyright Basquiat Deco - 2023. Todos los derechos reservados. Defensa de las y los consumidores.
+                Para reclamos <a class="weight-strong"
+                    href="https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario"
+                    target="_blank">ingrese aquí</a></p>
+        </div>
+    </footer>
 
 
 
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            AOS.init();
-          </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
-    </body>
+</body>
 
 </html>

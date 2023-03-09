@@ -5,6 +5,7 @@
 #somos-basquiat {
   background-color: rgb(231, 231, 231);
 }
+
 #somos-basquiat .container {
   text-align: center;
   width: 57em;
@@ -13,11 +14,13 @@
   display: flex;
   justify-content: center;
 }
+
 #somos-basquiat .texto {
   width: 50%;
   text-align: initial;
   padding: 60px 20px;
 }
+
 #somos-basquiat .img-container {
   background-image: url(../img/cuadro4.png);
   background-size: cover;
@@ -40,6 +43,7 @@
   text-decoration: none;
   color: black;
 }
+
 .contac:hover {
   text-decoration: underline;
 }
