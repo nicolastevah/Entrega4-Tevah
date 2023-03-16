@@ -6,3 +6,18 @@
 	display: flex;
 	justify-items: center;
 }
+
+.Busqueda{
+	margin-left: 75%;
+  }
+@media (max-width: 600px) {
+	.Busqueda{
+	  margin-left: 20%;
+	}
+  }
+  
+  @media (min-width: 601px) and (max-width: 900px) {
+	.Busqueda{
+	  margin-left: 75%;
+	}
+  }
