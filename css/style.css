@@ -3,6 +3,30 @@
   margin-left: 80px;
 }
 
+.locales1 {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 1233px) {
+  .locales1 {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+.fondo1 {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 70;
+}
+
+@media (max-width: 1233px) {
+  .fondo1 {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
 #somos-basquiat {
   background-color: rgb(231, 231, 231);
 }
